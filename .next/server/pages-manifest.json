@@ -1,0 +1,13 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/all-posts": "pages/all-posts.js",
+  "/new-post": "pages/new-post.js",
+  "/blog": "pages/blog.js",
+  "/blog/user-post/[id]": "pages/blog/user-post/[id].js",
+  "/contact": "pages/contact.js",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/api/posts-with-image": "pages/api/posts-with-image.js"
+}
