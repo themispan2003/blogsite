@@ -9,3 +9,4 @@
 # Next.js build
 .next/
 out/
+public/uploads/
