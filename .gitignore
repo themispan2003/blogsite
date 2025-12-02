@@ -1,5 +1,11 @@
+# Environment files
+.env
 .env.local
-# Next.js build output
+.env.*
+
+# macOS system files
+.DS_Store
+
+# Next.js build
 .next/
 out/
-
