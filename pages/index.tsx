@@ -44,7 +44,7 @@ export default function Home({ posts }) {
           {posts.map((post) => (
             <li key={post.slug} className="flex items-start gap-4">
               <div className="flex-shrink-0">
-                <Link href={`/blog/${post.slug}`}>
+                <Link href={`/all-posts/${post.slug}`}>
                   <Image
                     src={post.thumbnail}
                     alt={post.title}

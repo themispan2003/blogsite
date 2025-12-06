@@ -14,7 +14,6 @@ const PostSchema = new Schema<IPost>(
     title: { type: String, required: true },
     content: { type: String, required: true },
     author: { type: String, required: true },
-    // 🔥 αλλάζουμε το default ώστε να δείχνει στο /uploads/
     thumbnail: { type: String, default: "/uploads/default.jpg" },
   },
   { timestamps: true }

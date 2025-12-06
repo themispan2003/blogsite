@@ -16,7 +16,7 @@ export default function Layout({ children }) {
           <Link href="/contact">
             <span className="hover:underline">Επικοινωνία</span>
           </Link>
-          <Link href="/blog">
+          <Link href="/all-posts">
             <span className="hover:underline">Άρθρα</span>
           </Link>
           {session && (
